@@ -5,8 +5,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .app-body {
   text-align: center;
   background-color: #282c34;
@@ -35,7 +33,7 @@ body {
   left: -4px;
   right: -4px;
   bottom: -4px;
-  background: linear-gradient(315deg, #D95252, #D95252);
+  background: linear-gradient(315deg, #d95252, #d95252);
   border-radius: 5px;
   transform: skewX(2deg) skewY(4deg);
 }
@@ -46,7 +44,7 @@ body {
   left: -4px;
   right: -4px;
   bottom: -4px;
-  background: linear-gradient(315deg, #D95252, #D95252);
+  background: linear-gradient(315deg, #d95252, #d95252);
   transform: skewX(2deg) skewY(2deg);
 }
 .box span {
@@ -58,7 +56,8 @@ body {
   background: #282c34;
   z-index: 10;
 }
-h2, h3 {
+h2,
+h3 {
   position: relative;
   color: #fff;
   font-size: 2em;
@@ -72,10 +71,10 @@ h2, h3 {
 
 ul {
   display: flex;
-
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
+
 
 ul li {
   list-style: none;
@@ -87,10 +86,14 @@ ul li {
 }
 
 @keyframes grow {
-  0% ,
-  40% ,
-  100% { transform:scale(0.2); }
-  20% { transform:scale(1); }
+  0%,
+  40%,
+  100% {
+    transform: scale(0.2);
+  }
+  20% {
+    transform: scale(1);
+  }
 }
 
 ul li:nth-child(1) {
@@ -121,7 +124,6 @@ ul li:nth-child(5) {
   animation-delay: -0.6s;
   background: #ba68c8;
   box-shadow: 0 0 50px #ba68c8;
-  
 }
 ul li:nth-child(6) {
   animation-delay: -0.4s;
@@ -136,7 +138,7 @@ ul li:nth-child(7) {
 }
 
 ul li:nth-child(8) {
-  animation-delay: 0.0s;
+  animation-delay: 0s;
   background: teal;
   box-shadow: 0 0 50px teal;
 }
